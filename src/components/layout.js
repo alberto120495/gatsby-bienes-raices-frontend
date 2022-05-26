@@ -1,6 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { createGlobalStyle } from "styled-components"
+import Header from "./header"
 
 const GlobalStyle = createGlobalStyle`
     html{
@@ -58,7 +59,7 @@ function Layout({ children }) {
           crossorigin="anonymous"
         />
       </Helmet>
-
+      <Header />
       {children}
     </>
   )

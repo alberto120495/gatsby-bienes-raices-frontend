@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 
-function index() {
+function Propiedades() {
   return (
     <Layout>
-      <h1>Hello</h1>
+      <h1>Propiedades</h1>
     </Layout>
   )
 }
 
-export default index
+export default Propiedades
