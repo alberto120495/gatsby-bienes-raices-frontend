@@ -1,0 +1,23 @@
+.imagenbg {
+  color: #fff;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  max-width: 800px;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .titulo {
+    font-size: 4rem;
+  }
+}

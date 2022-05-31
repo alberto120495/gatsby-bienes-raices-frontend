@@ -18,6 +18,16 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        accessToken: `dc56f731a2577a9d1e1b68b43d5adf2a40787e0c492e490aa2d1e9316c56749971edaa1ef3c5085881323c10ead5af265a16d02386f729ece8f9caf5555188e11bcc21c03d078f0ca9afd171843ce083ce1a62d1f0a77d135219e49e5a11f1421ca090adcb4faf8f6c1dc4615ead2501134ac1b7be935b27f3b1ce0192265f28`,
+        queryLimit: 1000,
+        collectionTypes: [`property`, `page`, `category`, `agent`],
+        singleTypes: [],
+      },
+    },
     /*  {
       resolve: `gatsby-plugin-manifest`,
       options: {
